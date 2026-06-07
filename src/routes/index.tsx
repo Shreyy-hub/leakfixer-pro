@@ -455,17 +455,17 @@ function FinalCta() {
 
 function Footer() {
   return (
-    <footer className="border-t border-border/60 py-12 px-6">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-muted-foreground">
-        <div className="flex items-center gap-2">
-          <span className="h-2 w-2 rounded-full bg-gold" />
-          <span className="font-display text-lg text-foreground">Artha<span className="text-gold">.</span></span>
+    <footer className="border-t border-border/60 py-16 px-6">
+      <div className="max-w-6xl mx-auto flex flex-col items-center justify-center gap-6">
+        <div className="flex items-center gap-3">
+          <span className="h-3 w-3 rounded-full bg-gold" />
+          <span className="font-display text-3xl text-foreground tracking-tight">Artha<span className="text-gold">.</span></span>
         </div>
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-8 text-sm text-muted-foreground">
           <a href="mailto:hello@artharevenue.co" className="hover:text-foreground transition-colors">{"\n"}</a>
           <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors">{"\n"}</a>
         </div>
-        <p>{"\n"}</p>
+        <p className="text-sm text-muted-foreground">{"\n"}</p>
       </div>
     </footer>
   );
