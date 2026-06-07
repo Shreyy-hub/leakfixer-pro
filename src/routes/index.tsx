@@ -445,7 +445,7 @@ function FinalCta() {
         </Reveal>
         <Reveal delay={350}>
           <p className="mt-8 text-sm text-muted-foreground">
-            48-hour response. No sales call until the audit is in your inbox.
+            {"\n"}
           </p>
         </Reveal>
       </div>
@@ -462,10 +462,10 @@ function Footer() {
           <span className="font-display text-lg text-foreground">Lumen<span className="text-gold">.</span></span>
         </div>
         <div className="flex items-center gap-8">
-          <a href="mailto:hello@lumenrevenue.co" className="hover:text-foreground transition-colors">hello@lumenrevenue.co</a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors">LinkedIn</a>
+          <a href="mailto:hello@lumenrevenue.co" className="hover:text-foreground transition-colors">{"\n"}</a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors">{"\n"}</a>
         </div>
-        <p>© {new Date().getFullYear()} Lumen Revenue</p>
+        <p>{"\n"}</p>
       </div>
     </footer>
   );
