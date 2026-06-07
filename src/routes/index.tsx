@@ -4,13 +4,13 @@ import { useEffect, useRef, useState } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Lumen Revenue — Stop Losing Med Spa Leads" },
+      { title: "Artha Revenue — Stop Losing Med Spa Leads" },
       {
         name: "description",
         content:
           "Performance-based lead conversion for med spas. Turn existing inquiries into booked appointments. You only pay when it works.",
       },
-      { property: "og:title", content: "Lumen Revenue — The Med Spa Booking System" },
+      { property: "og:title", content: "Artha Revenue — The Med Spa Booking System" },
       {
         property: "og:description",
         content:
@@ -76,7 +76,7 @@ function Nav() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2">
           <span className="h-2 w-2 rounded-full bg-gold animate-pulse-dot" />
-          <span className="font-display text-xl tracking-tight">Lumen<span className="text-gold">.</span></span>
+          <span className="font-display text-xl tracking-tight">Artha<span className="text-gold">.</span></span>
         </a>
         <nav className="hidden md:flex items-center gap-10 text-sm text-muted-foreground">
           <a href="#problem" className="hover:text-foreground transition-colors">Problem</a>
@@ -342,7 +342,7 @@ function Logic() {
             </Card>
           </Reveal>
           <Reveal delay={300}>
-            <Card label="With Lumen" tone="gold">
+            <Card label="With Artha" tone="gold">
               <Stat n="100" l="Leads / month" />
               <Stat n="25" l="Booked appointments" gold />
               <Stat n="25%" l="Conversion" gold />
@@ -430,13 +430,13 @@ function FinalCta() {
         <Reveal delay={200}>
           <div className="mt-12 flex flex-wrap justify-center gap-4">
             <a
-              href="mailto:hello@lumenrevenue.co?subject=Book a Call"
+              href="mailto:hello@artharevenue.co?subject=Book a Call"
               className="px-7 py-3.5 rounded-md bg-gold text-primary-foreground font-medium hover:bg-gold-soft transition-colors"
             >
               Book a Call
             </a>
             <a
-              href="mailto:hello@lumenrevenue.co?subject=Free Audit"
+              href="mailto:hello@artharevenue.co?subject=Free Audit"
               className="px-7 py-3.5 rounded-md border border-border hover:border-gold hover:text-gold transition-colors"
             >
               Request Free Audit
@@ -459,10 +459,10 @@ function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-muted-foreground">
         <div className="flex items-center gap-2">
           <span className="h-2 w-2 rounded-full bg-gold" />
-          <span className="font-display text-lg text-foreground">Lumen<span className="text-gold">.</span></span>
+          <span className="font-display text-lg text-foreground">Artha<span className="text-gold">.</span></span>
         </div>
         <div className="flex items-center gap-8">
-          <a href="mailto:hello@lumenrevenue.co" className="hover:text-foreground transition-colors">{"\n"}</a>
+          <a href="mailto:hello@artharevenue.co" className="hover:text-foreground transition-colors">{"\n"}</a>
           <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors">{"\n"}</a>
         </div>
         <p>{"\n"}</p>
