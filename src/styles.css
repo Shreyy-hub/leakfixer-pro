@@ -37,9 +37,8 @@
 
 :root {
   --radius: 0.5rem;
-  /* Darker royal blue background */
-  --background: oklch(0.14 0.09 240);
-  --surface: oklch(0.19 0.08 240);
+  --background: #011228;
+  --surface: #0a1f3d;
   --foreground: oklch(0.96 0.01 230);
   --card: oklch(0.27 0.07 240);
   --card-foreground: oklch(0.96 0.01 230);
@@ -63,7 +62,7 @@
 }
 
 .dark {
-  --background: oklch(0.14 0.09 240);
+  --background: #011228;
   --foreground: oklch(0.96 0.01 230);
 }
 

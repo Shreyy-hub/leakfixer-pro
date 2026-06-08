@@ -85,7 +85,9 @@ function Nav() {
           <a href="#process" className="hover:text-foreground transition-colors">Process</a>
         </nav>
         <a
-          href="#cta"
+          href="https://calendly.com/shreyaasrapolu528/30min"
+          target="_blank"
+          rel="noreferrer"
           className="text-sm px-4 py-2 rounded-md border border-gold/40 text-gold hover:bg-gold hover:text-primary-foreground transition-colors"
         >
           Free Audit
@@ -127,7 +129,9 @@ function Hero() {
               See How It Works
             </a>
             <a
-              href="#cta"
+              href="https://calendly.com/shreyaasrapolu528/30min"
+              target="_blank"
+              rel="noreferrer"
               className="px-6 py-3 rounded-md border border-border text-foreground hover:border-gold hover:text-gold transition-colors"
             >
               Get a Free Audit →
@@ -430,13 +434,17 @@ function FinalCta() {
         <Reveal delay={200}>
           <div className="mt-12 flex flex-wrap justify-center gap-4">
             <a
-              href="mailto:hello@artharevenue.co?subject=Book a Call"
+              href="https://calendly.com/shreyaasrapolu528/30min"
+              target="_blank"
+              rel="noreferrer"
               className="px-7 py-3.5 rounded-md bg-gold text-primary-foreground font-medium hover:bg-gold-soft transition-colors"
             >
               Book a Call
             </a>
             <a
-              href="mailto:hello@artharevenue.co?subject=Free Audit"
+              href="https://calendly.com/shreyaasrapolu528/30min"
+              target="_blank"
+              rel="noreferrer"
               className="px-7 py-3.5 rounded-md border border-border hover:border-gold hover:text-gold transition-colors"
             >
               Request Free Audit
