@@ -99,7 +99,7 @@ function Nav() {
 
 function Hero() {
   return (
-    <section id="top" className="relative pt-40 pb-32 px-6 overflow-hidden bg-[#03091c]">
+    <section id="top" className="relative pt-40 pb-32 px-6 overflow-hidden">
       <div className="absolute inset-0 pointer-events-none opacity-[0.05]"
         style={{ backgroundImage: "radial-gradient(circle at 50% 0%, var(--gold) 0%, transparent 60%)" }}
       />
