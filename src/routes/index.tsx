@@ -492,10 +492,9 @@ function Footer() {
           <span className="font-display text-3xl text-foreground tracking-tight">Artha<span className="text-gold">.</span></span>
         </div>
         <div className="flex items-center gap-8 text-sm text-muted-foreground">
-          <a href="mailto:hello@artharevenue.co" className="hover:text-foreground transition-colors">{"\n"}</a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors">{"\n"}</a>
+          <a href="mailto:hello@artharevenue.co" aria-label="Email Artha Revenue" className="hover:text-foreground transition-colors sr-only">Email</a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="Artha Revenue on LinkedIn" className="hover:text-foreground transition-colors sr-only">LinkedIn</a>
         </div>
-        <p className="text-sm text-muted-foreground">{"\n"}</p>
       </div>
     </footer>
   );
