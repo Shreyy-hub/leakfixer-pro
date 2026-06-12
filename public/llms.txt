@@ -1,0 +1,7 @@
+# Artha Revenue
+
+> Performance-based lead conversion system for med spas and aesthetic clinics. We turn existing inquiries into booked appointments — you only pay when it works.
+
+## Pages
+
+- [Home](/): How Artha helps med spas stop losing leads and convert more inquiries into booked appointments.
