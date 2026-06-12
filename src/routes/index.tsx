@@ -16,6 +16,26 @@ export const Route = createFileRoute("/")({
         content:
           "Most med spas lose 30–50% of revenue to slow replies. We fix that. Pay only for booked appointments.",
       },
+      { property: "og:url", content: "https://arthagrowth.lovable.app/" },
+      { property: "og:type", content: "website" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://arthagrowth.lovable.app/" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Artha Revenue",
+          url: "https://arthagrowth.lovable.app/",
+          description:
+            "Performance-based lead conversion service for med spas and aesthetic clinics.",
+          areaServed: "Worldwide",
+          serviceType: "Lead Conversion & Revenue Optimization",
+        }),
+      },
     ],
   }),
   component: Index,
@@ -58,13 +78,15 @@ function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground font-sans">
       <Nav />
-      <Hero />
-      <Problem />
-      <Solution />
-      <Offer />
-      <Logic />
-      <Process />
-      <FinalCta />
+      <main>
+        <Hero />
+        <Problem />
+        <Solution />
+        <Offer />
+        <Logic />
+        <Process />
+        <FinalCta />
+      </main>
       <Footer />
     </div>
   );
@@ -470,10 +492,9 @@ function Footer() {
           <span className="font-display text-3xl text-foreground tracking-tight">Artha<span className="text-gold">.</span></span>
         </div>
         <div className="flex items-center gap-8 text-sm text-muted-foreground">
-          <a href="mailto:hello@artharevenue.co" className="hover:text-foreground transition-colors">{"\n"}</a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors">{"\n"}</a>
+          <a href="mailto:hello@artharevenue.co" aria-label="Email Artha Revenue" className="hover:text-foreground transition-colors sr-only">Email</a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="Artha Revenue on LinkedIn" className="hover:text-foreground transition-colors sr-only">LinkedIn</a>
         </div>
-        <p className="text-sm text-muted-foreground">{"\n"}</p>
       </div>
     </footer>
   );
