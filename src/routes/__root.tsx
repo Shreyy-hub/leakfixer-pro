@@ -90,6 +90,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:description", content: "Performance-based lead conversion for med spas. Turn existing inquiries into booked appointments — you only pay when it works." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e557457b-26da-4f0b-9751-2bb2428dce3c/id-preview-66f90ab4--259df0f5-0ee6-4f2d-821f-4b4fe3a1fa80.lovable.app-1781254222701.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e557457b-26da-4f0b-9751-2bb2428dce3c/id-preview-66f90ab4--259df0f5-0ee6-4f2d-821f-4b4fe3a1fa80.lovable.app-1781254222701.png" },
+      { name: "google-site-verification", content: "hQ0hDInY13GyU9QESSLqWj25wn6ETJiAz2MzevkcDR4" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
