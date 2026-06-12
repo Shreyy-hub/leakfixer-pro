@@ -16,6 +16,26 @@ export const Route = createFileRoute("/")({
         content:
           "Most med spas lose 30–50% of revenue to slow replies. We fix that. Pay only for booked appointments.",
       },
+      { property: "og:url", content: "https://arthagrowth.lovable.app/" },
+      { property: "og:type", content: "website" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://arthagrowth.lovable.app/" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Artha Revenue",
+          url: "https://arthagrowth.lovable.app/",
+          description:
+            "Performance-based lead conversion service for med spas and aesthetic clinics.",
+          areaServed: "Worldwide",
+          serviceType: "Lead Conversion & Revenue Optimization",
+        }),
+      },
     ],
   }),
   component: Index,
